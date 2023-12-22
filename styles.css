@@ -1,0 +1,49 @@
+body {
+  font-family: 'Times New Roman', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: url('nightmum.jpg') center/cover no-repeat; /* Replace 'moonmum.jpg' with the actual name of your image file */
+}
+
+.container {
+  text-align: center;
+  margin-top: -200px; /* Adjust the margin to move the entire content up */
+}
+
+.page-title {
+  font-size: 48px;
+  margin-bottom: 5px;
+  background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #ffff00); /* Adjust the colors as needed */
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 1px #000000; /* Black stroke creates a border effect */
+  text-stroke: 1px #000000; /* Fallback for other browsers */
+}
+
+.subtitle {
+  font-size: 18px;
+  font-style: italic;
+  color: #ffffff; /* White text color */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #0000000;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#quoteDisplay {
+  margin-top: 20px;
+  font-size: 20px;
+  max-width: 1000px; /* Set the maximum width as needed */
+  color: #ffffff;
+}
